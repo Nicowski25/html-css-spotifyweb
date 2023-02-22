@@ -13,6 +13,8 @@
  
     <div class="top d-flex">
 
+<!-- #region sidebar -->
+
         <div class="sidebar d-flex direction-column">
             <div class="sidebar_top">
                 <ul class="side_icons gap-10 d-flex direction-column">
@@ -31,6 +33,8 @@
             </div>
         </div>
 
+<!-- #endregion sidebar -->
+
         <main class="content">
 
             <div class="upgrade d-flex">
@@ -39,7 +43,7 @@
 
             <div class="menu">
 
-                <navbar class="content-type">
+                <navbar id="content-type">
                     <ul class="sections-list d-flex f-wrap gap-10">
                         <li>IN EVIDENZA</li>
                         <li>PODCAST</li>
@@ -50,10 +54,12 @@
                     </ul>
                 </navbar>
 
-                <h1 class="py-1">Recently Played</h1>
+                <div class="feed py-1">
+                    <h1>Recently Played</h1>
+                </div>
                 
                 <div id="recently_played" class="d-flex f-wrap">
-                    
+
                     <div class="track">
                         <img src="./img/metal_lifting.jpg" alt="" class="track_img">
                         <h2 class="track_name py-1">Heavy Metal</h2>
@@ -62,30 +68,54 @@
 
                     <div class="track">
                         <img src="./img/stranger.jpeg" alt="" class="track_img">
-                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <h2 class="track_name py-1">Stranger Things</h2>
                         <p class="track_author">Subtitle</p>
                     </div>
 
                     <div class="track">
                         <img src="./img/aquietplace.jpeg" alt="" class="track_img">
-                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <h2 class="track_name py-1">A Quiet Place</h2>
                         <p class="track_author">Subtitle</p>
                     </div>
 
                     <div class="track">
                         <img src="./img/split.jpeg" alt="" class="track_img">
-                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <h2 class="track_name py-1">Split</h2>
+                        <p class="track_author">Subtitle</p>
+                    </div>
+
+                    <div class="track">
+                        <img src="./img/cure.jpeg" alt="" class="track_img">
+                        <h2 class="track_name py-1">A cure for wellness</h2>
                         <p class="track_author">Subtitle</p>
                     </div>
 
                     <div class="track">
                         <img src="./img/sinister.jpeg" alt="" class="track_img">
-                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <h2 class="track_name py-1">Sinister</h2>
                         <p class="track_author">Subtitle</p>
                     </div>
 
                 </div>
 
+                <div class="feed py-1">
+                    <h1>Creato per Don Joe</h1>
+                    <p class="py-1">Più ascolti, più accurati saranno i suggerimenti</p>
+                </div>
+
+                <div id="createdfor" class="d-flex f-wrap">
+
+                    <div class="track">
+                        <img src="./img/radar.jpeg" alt="" class="track_img">
+                        <h2 class="track_name py-1">Heavy Metal</h2>
+                    </div>
+
+                    <div class="track">
+                        <img src="./img/mixdaily.jpeg" alt="" class="track_img">
+                        <h2 class="track_name py-1">Stranger Things</h2>
+                    </div>
+
+                </div>
 
             </div>
 
