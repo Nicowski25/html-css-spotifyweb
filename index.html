@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
@@ -12,9 +13,9 @@
  
     <div class="top d-flex">
 
-        <navbar class="sidebar d-flex direction-column">
+        <div class="sidebar d-flex direction-column">
             <div class="sidebar_top">
-                <ul class="side_icons d-flex direction-column">
+                <ul class="side_icons gap-10 d-flex direction-column">
                     <li class="w-70"><img src="./img/logo-small.svg" alt=""></li>
                     <li class="w-70"><img src="./img/home.svg" alt=""></li>
                     <li class="w-70"><img src="./img/search.svg" alt=""></li>
@@ -28,12 +29,66 @@
                     <li class="w-70"><img src="./img/profile.svg" alt=""></li>
                 </ul>
             </div>
-        </navbar>
+        </div>
 
         <main class="content">
+
             <div class="upgrade d-flex">
                 <button class="upgradebtn">EFFETTUA L'UPGRADE</button>
             </div>
+
+            <div class="menu">
+
+                <navbar class="content-type">
+                    <ul class="sections-list d-flex f-wrap gap-10">
+                        <li>IN EVIDENZA</li>
+                        <li>PODCAST</li>
+                        <li>CLASSIFICHE</li>
+                        <li>GENERI E MOOD</li>
+                        <li>NUOVE USCITE</li>
+                        <li>SCOPRI</li>
+                    </ul>
+                </navbar>
+
+                <h1 class="py-1">Recently Played</h1>
+                
+                <div id="recently_played" class="d-flex f-wrap">
+                    
+                    <div class="track">
+                        <img src="./img/metal_lifting.jpg" alt="" class="track_img">
+                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <p class="track_author">Subtitle</p>
+                    </div>
+
+                    <div class="track">
+                        <img src="./img/stranger.jpeg" alt="" class="track_img">
+                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <p class="track_author">Subtitle</p>
+                    </div>
+
+                    <div class="track">
+                        <img src="./img/aquietplace.jpeg" alt="" class="track_img">
+                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <p class="track_author">Subtitle</p>
+                    </div>
+
+                    <div class="track">
+                        <img src="./img/split.jpeg" alt="" class="track_img">
+                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <p class="track_author">Subtitle</p>
+                    </div>
+
+                    <div class="track">
+                        <img src="./img/sinister.jpeg" alt="" class="track_img">
+                        <h2 class="track_name py-1">Heavy Metal</h2>
+                        <p class="track_author">Subtitle</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
         </main>
 
     </div>
