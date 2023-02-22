@@ -8,6 +8,10 @@
     display: flex;
 }
 
+.w-70 {
+    width: 70%;
+}
+
 .direction-column {
     flex-direction: column;
 }
@@ -24,19 +28,47 @@
 
 
 .sidebar {
-    width: 70px;
+    width: 50px;
     background-color: black;
+    color: white;
 }
 
 .sidebar_top {
-    height: 90%;
+    height: 80%;
+    margin-top: 1rem;
 }
 
+.side_icons {
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
 .sidebar_bottom {
-    height: 10%;
+    height: 20%;
+    overflow: hidden;
 }
 
 .content {
     width: 100%;
     background-color: rgb(5, 7, 36);
+    overflow-y: scroll;
+}
+
+.upgrade {
+    height: 50px;
+    background-color: rgba(8, 8, 8, 0.856);
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.upgradebtn {
+    height: 70%;
+    color: white;
+    background-color:  rgba(8, 8, 8, 0.856);
+    padding: 5px 2rem;
+    border-radius: 2rem;
+    border: 1px solid white;
 }
