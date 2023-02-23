@@ -110,6 +110,23 @@
 
 /* #endregion layout */
 
+/* #region displaynone and hover*/
+.full-logo {
+    display: none;
+}
+
+.upgrade button:hover {
+    padding: 5px 3rem;
+    border: 2px solid var(--white);
+}
+
+.sections-list li:hover {
+    color: var(--white);
+    border-bottom: 2px solid rgb(44, 167, 44);
+}
+
+/* #endregion displaynone */
+
 /* #region content */
 
 .content {
