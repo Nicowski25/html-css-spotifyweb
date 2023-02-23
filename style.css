@@ -44,6 +44,10 @@
     width: 70%;
 }
 
+.h-80 {
+    height: 80%;
+}
+
 .gap-10 {
     gap: 10px;
 }
@@ -72,11 +76,6 @@
 
 .top {
     height: calc(100vh - 80px);
-}
-
-.bottom {
-    height: 80px;
-    background-color: var(--miniplayer);
 }
 
 .sidebar {
@@ -111,7 +110,7 @@
     overflow-y: scroll;
 }
 
-.feed p {
+.feed,.bottom_left p {
     color: var(--secondary);
 }
 
@@ -176,6 +175,25 @@
 }
 
 /* #endregion content */
+
+/* #region bottom */
+
+#bottom {
+    height: 80px;
+    justify-content: space-between;
+    background-color: var(--miniplayer);
+}
+
+.bottom_left,
+.bottom_mid,
+.bottom_right {
+    max-height: 100%;
+    align-items: center;
+}
+
+
+
+/* #endregion bottom */
 
 /* #region mediascreen */
 
