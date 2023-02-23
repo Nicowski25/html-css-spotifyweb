@@ -21,7 +21,7 @@
 }
 
 .col-6 {
-    width: calc(100%/12 * 6);
+    max-width: calc(100%/12 * 6);
 }
 
 .col-4 {
@@ -83,10 +83,10 @@
     width: 50px;
     background-color: var(--black);
     color: var(--white);
+    justify-content: space-between;
 }
 
 .sidebar_top {
-    height: 80%;
     margin-top: 1rem;
 }
 
@@ -97,7 +97,6 @@
 
 
 .sidebar_bottom {
-    height: 20%;
     overflow: hidden;
 }
 
@@ -158,12 +157,24 @@
 }
 
 .track_name {
-    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .track_author {
     color: var(--secondary);
+    word-wrap: break-word;
 }
+
+.artist {
+    text-align: center;
+    padding: 10px;
+}
+
+.author_image {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
 /* #endregion content */
 
 /* #region mediascreen */
