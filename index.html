@@ -18,7 +18,7 @@
         <div class="sidebar d-flex direction-column">
             <div class="sidebar_top">
                 <ul class="side_icons gap-10 d-flex direction-column">
-                    <li class="w-70"><img src="./img/logo-small.svg" alt=""></li>
+                    <li class="w-70"><img src="./img/logo-small.svg" alt=""><span class="d-md">Home</span></li>
                     <li class="w-70 full-logo"><img src="./img/logo.svg" alt=""></li>
                     <li class="w-70"><img src="./img/home.svg" alt=""></li>
                     <li class="w-70"><img src="./img/search.svg" alt=""></li>
@@ -143,9 +143,9 @@
 
     <footer id="bottom" class="d-flex">
 
-        <div class="bottom_left d-flex">
+        <div class="bottom_left d-flex col-4">
             <div class="player_img">
-                <img src="./img/sinister.jpeg" alt="" class="w-100">
+                <img src="./img/sinister.jpeg" alt="" class="player_img_track w-100">
             </div>
 
             <div class="track_info">
@@ -154,38 +154,37 @@
             </div>
             
             <div>
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-heart px-1"></i>
                 <i class="fa-regular fa-folder"></i>
             </div>
         </div>
 
 
-        <div class="bottom_mid d-flex direction-column">
+        <div class="bottom_mid d-flex direction-column col-4">
             <div class="player_commands d-flex">
                 <i class="fa-solid fa-shuffle"></i>
                 <i class="fa-solid fa-backward-step"></i>
-                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-regular fa-circle-play fa-xl"></i>
                 <i class="fa-solid fa-forward-step"></i>
                 <i class="fa-solid fa-rotate-right"></i>
             </div>
             <div class="player_duration d-flex">
                 <p>0:25</p>
-                <hr class="time_bar">
+                <input type="range" class="time_bar">
                 <p>4:35</p>
             </div>
         </div>
 
 
-        <div class="bottom_right d-flex">
-            <i class="fa-solid fa-list-ul"></i>
+        <div class="bottom_right d-flex col-4">
+            <i class="fa-solid fa-list-ul px-1"></i>
             <i class="fa-solid fa-display"></i>
-            <i class="fa-solid fa-volume-high"></i>
-            <hr class="volume_bar">
+            <i class="fa-solid fa-volume-high px-1"></i>
+            <input type="range" class="volume_bar">
         </div>
 
 
     </footer>
-    
 
 </body>
 </html>
